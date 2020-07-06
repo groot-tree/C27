@@ -16,7 +16,7 @@ class Chain {
     display () {
         
         stroke ("yellow");
-        strokeWeight (500000);
+        strokeWeight (20);
  
         line(this.chain.bodyA.position.x, this.chain.bodyA.position.y, this.chain.bodyB.position.x, this.chain.bodyB.position.y)
 
